@@ -1,0 +1,14 @@
+
+:root{--bg:#f6f4ee;--ink:#1e1d1a;--mute:#6b675e;--line:#dedad0;--card:#fffdf8;--acc:#b8322f}
+@media(prefers-color-scheme:dark){:root{--bg:#171613;--ink:#ece8de;--mute:#a19c90;--line:#33312b;--card:#1f1e1a;--acc:#e0665f}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 Georgia,'Times New Roman',serif}
+a{color:var(--acc)}main{max-width:720px;margin:0 auto;padding:24px 16px 64px}
+header{border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:24px}
+header h1{font-size:22px;margin:0}header nav a{margin-right:14px;font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:12px 0}
+.meta{color:var(--mute);font-size:14px}.tag{display:inline-block;border:1px solid var(--line);border-radius:12px;padding:0 9px;font-size:13px;margin-right:6px}
+.tag.drama{border-color:#b8322f}.tag.intense{border-color:#c77d1a}.tag.funny{border-color:#2f8f5b}.tag.milestone{border-color:#3667c9}
+img,video,audio{max-width:100%;border-radius:6px}figure{margin:16px 0}figcaption{color:var(--mute);font-size:13px}
+h2{font-size:26px;margin:8px 0}h3{font-size:19px;margin:20px 0 6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+table{border-collapse:collapse;font-size:15px}td,th{padding:4px 10px;border-bottom:1px solid var(--line);text-align:left}
