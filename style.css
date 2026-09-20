@@ -7,7 +7,7 @@ header{border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:24p
 header h1{font-size:22px;margin:0}header nav a{margin-right:14px;font-size:15px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:12px 0}
 .meta{color:var(--mute);font-size:14px}.tag{display:inline-block;border:1px solid var(--line);border-radius:12px;padding:0 9px;font-size:13px;margin-right:6px}
-.tag.drama{border-color:#b8322f}.tag.intense{border-color:#c77d1a}.tag.funny{border-color:#2f8f5b}.tag.milestone{border-color:#3667c9}
+.tag.drama{border-color:#b8322f}.tag.intense{border-color:#c77d1a}.tag.funny{border-color:#2f8f5b}.tag.milestone{border-color:#3667c9}.tag.smart{border-color:#7a4fc0}
 img,video,audio{max-width:100%;border-radius:6px}figure{margin:16px 0}figcaption{color:var(--mute);font-size:13px}
 h2{font-size:26px;margin:8px 0}h3{font-size:19px;margin:20px 0 6px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
